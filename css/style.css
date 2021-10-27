@@ -199,38 +199,6 @@ body {
   width: 100%;
 }
 
-/* pager */
-.pager {
-  position: absolute;
-  max-width: 1200px;
-  min-width: 1000px;
-  height: 600px;
-  /* background: #ccc; */
-  z-index: 1000;
-  left: 600px;
-}
-
-.pager .leftBtn {
-  position: absolute;
-  left: -400px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.pager .rightBtn {
-  position: absolute;
-  right: -100px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.pager .leftBtn:checked #main-visual{
-  margin-right: 100%;
-}
-.pager .rightBtn:checked #main-visual .slider img{
-  transform:translateX(-100%);
-}
-
 /* 버튼 스타일 */
 .btn {
   padding-left: 40px;
@@ -455,4 +423,10 @@ body {
 #main-footer .footer-info {
   font-size: 14px;
   color: #6a6a6a;
+}
+
+.swiper{
+  text-align: center;
+  background-color: var(--footer-bg-color);
+  margin: 0 auto;
 }
